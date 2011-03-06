@@ -1,0 +1,73 @@
+App-DesktopDroidServer
+
+desktop-droid is a set of applications that allow an android phone
+to send events to your desktop computer.
+
+It is composed of three pieces of software:
+
+1. Android app
+
+This application needs to be installed on your android phone in order to
+capture events and send them to the server.
+
+2. Server app
+
+This application needs to be deployed on the Internet to allow your android
+and desktop to talk to each other.
+
+Note that there is a default server already deployed that you may use instead of
+setting up one for yourself.
+
+3. Desktop app
+
+INSTALLATION
+
+To install this module, run the following commands:
+
+	perl Makefile.PL
+	make
+	make test
+	make install
+
+SUPPORT AND DOCUMENTATION
+
+After installing, you can find documentation for this module with the
+perldoc command.
+
+    perldoc App::DesktopDroidServer
+
+You can also look for information at:
+
+    RT, CPAN's request tracker
+        http://rt.cpan.org/NoAuth/Bugs.html?Dist=App-DesktopDroidServer
+
+    AnnoCPAN, Annotated CPAN documentation
+        http://annocpan.org/dist/App-DesktopDroidServer
+
+    CPAN Ratings
+        http://cpanratings.perl.org/d/App-DesktopDroidServer
+
+    Search CPAN
+        http://search.cpan.org/dist/App-DesktopDroidServer/
+
+
+LICENSE AND COPYRIGHT
+
+Copyright (C) 2011 Warp Networks, S.L
+
+Author: Javier Uruen Val
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; version 2 dated June, 1991 or at your option
+any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+A copy of the GNU General Public License is available in the source tree;
+if not, write to the Free Software Foundation, Inc.,
+59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
+

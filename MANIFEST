@@ -1,0 +1,10 @@
+Changes
+MANIFEST
+Makefile.PL
+README
+desktop-droid-server
+lib/App/DesktopDroidServer.pm
+t/00-load.t
+t/manifest.t
+t/pod-coverage.t
+t/pod.t
